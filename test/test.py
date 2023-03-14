@@ -23,7 +23,7 @@ for a in range(1, x + 1):
             break
     if a == 5:
         print("Не сдаваться!!! еще чуть-чуть=)")
-    if a % 2 == 0:
+    if a % 15 == 0:
         counter += 1
         print(f"Еще немного <3... проверено где-то {counter * 10}% всех комбинаций")
     if count:
